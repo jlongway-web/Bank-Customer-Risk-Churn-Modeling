@@ -26,12 +26,11 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 Direct coorelation to Churn is seen below.
 
 ```
-+---------------------------------+
-| Feature             Corellation |
-+---------------------------------+
-| churn        |        1.000000  |
-| age          |       0.285323   |
-| country_Germany |    0.173488   |
+
+Feature           Corellation 
+churn               1.000000  
+age                 0.285323   
+country_Germany     0.173488   
 balance             0.118533
 estimated_salary    0.012097
 credit_card        -0.007138
