@@ -45,12 +45,12 @@ This suggests that the bank should put focus on retaining older customers, custo
 1. The Power Drivers (High Correlation & Importance)
 Age (+0.28): The strongest linear predictor. Risk increases significantly as customers age, suggesting a need for "Legacy" or "Wealth Management" retention products for older demographics.
 
-Active Membership (-0.16): The strongest defensive metric. Active engagement is the best "vaccine" against churn.
+2. Active Membership (-0.16): The strongest defensive metric. Active engagement is the best "vaccine" against churn.
 
-2. The "Non-Linear" Anomalies (High Branching, Low Correlation)
+3. The "Non-Linear" Anomalies (High Branching, Low Correlation)
 Estimated Salary: Despite a near-zero linear correlation (0.012), the Random Forest utilized this feature heavily for data partitioning.
 
-3. Strategic Recommendations:
+Strategic Recommendations:
 Targeted Re-engagement: Focus on Inactive Members in Germany (Country_Germany has a +0.17 correlation with churn).
 
 Insight: Salary acts as a "modifier" rather than a direct driver. It doesn't cause churn on its own, but it refines the risk profile when combined with other factors like balance or products_number. This point is illustrated by its high branching value in the random forest model.
