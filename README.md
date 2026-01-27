@@ -26,7 +26,6 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 Direct coorelation to Churn is seen below.
 
 ```
-
 Feature           Corellation 
 churn               1.000000  
 age                 0.285323   
@@ -41,7 +40,7 @@ country_Spain      -0.052667
 gender_Male        -0.106512
 active_member      -0.156128
 ```
-This suggests that the bank should put focus on retaining older customers, customers in Germany, and solutions to boost member activity.
+This suggests that the bank should put focus on retaining older customers, customers in Germany, and proactively engaging members with low activity.
 
 1. The "Power" Drivers (High Correlation & Importance)
 Age (+0.28): The strongest linear predictor. Risk increases significantly as customers age, suggesting a need for "Legacy" or "Wealth Management" retention products for older demographics.
