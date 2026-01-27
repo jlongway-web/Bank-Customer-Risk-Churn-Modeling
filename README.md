@@ -23,7 +23,7 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 
 "Analysis reveals that while 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition."
 
-Direct coorelation to Churn is seen below.
+Direct correlation to Churn is seen below.
 
 ```
 Feature           Corellation 
@@ -53,7 +53,7 @@ Estimated Salary: Despite a near-zero linear correlation (0.012), the Random For
 3. Strategic Recommendations
 Targeted Re-engagement: Focus on Inactive Members in Germany (Country_Germany has a +0.17 correlation with churn).
 
-Insight: Salary acts as a "modifier" rather than a direct driver. It doesn't cause churn on its own, but it refines the risk profile when combined with other factors like balance or products_number.
+Insight: Salary acts as a "modifier" rather than a direct driver. It doesn't cause churn on its own, but it refines the risk profile when combined with other factors like balance or products_number. This point is illustrated by its high branching value in the random forest model.
 
 Model Architecture: Random Forest Classifier
 
