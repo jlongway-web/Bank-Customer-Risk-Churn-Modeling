@@ -24,6 +24,7 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 "Analysis reveals that while 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition."
 
 Direct coorelation to Churn is seen below.
+
 Feature             Corellation
 churn               1.000000
 age                 0.285323
