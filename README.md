@@ -22,3 +22,38 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 <img src="images/Churn_by_Product_Count.png" width="800">
 
 "Analysis reveals that while 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition."
+
+Direct coorelation to Churn is seen below.
+Feature             Corellation
+churn               1.000000
+age                 0.285323
+country_Germany     0.173488
+balance             0.118533
+estimated_salary    0.012097
+credit_card        -0.007138
+tenure             -0.014001
+credit_score       -0.027094
+products_number    -0.047820
+country_Spain      -0.052667
+gender_Male        -0.106512
+active_member      -0.156128
+
+This suggests that the bank should put focus on retaining older customers, customers in Germany, and solutions to boost member activity.
+
+1. The "Power" Drivers (High Correlation & Importance)
+Age (+0.28): The strongest linear predictor. Risk increases significantly as customers age, suggesting a need for "Legacy" or "Wealth Management" retention products for older demographics.
+
+Active Membership (-0.16): The strongest defensive metric. Active engagement is the best "vaccine" against churn.
+
+2. The "Non-Linear" Anomalies (High Branching, Low Correlation)
+Estimated Salary: Despite a near-zero linear correlation (0.012), the Random Forest utilized this feature heavily for data partitioning.
+
+3. Strategic Recommendations
+Targeted Re-engagement: Focus on Inactive Members in Germany (Country_Germany has a +0.17 correlation with churn).
+
+Insight: Salary acts as a "modifier" rather than a direct driver. It doesn't cause churn on its own, but it refines the risk profile when combined with other factors like balance or products_number.
+
+
+<img src="images/Random_Forest_Feature_Branching.png" width="800">
+
+
