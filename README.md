@@ -21,4 +21,6 @@ Automated Risk Triggers: Any customer moving from 2 to 3 products should be flag
 
 Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific high-fee loan or complex insurance rider) is the primary driver of friction.
 
+![images/Churn_by_Product_Count.png]
+
 "Analysis reveals that while 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition."
