@@ -55,7 +55,19 @@ Targeted Re-engagement: Focus on Inactive Members in Germany (Country_Germany ha
 
 Insight: Salary acts as a "modifier" rather than a direct driver. It doesn't cause churn on its own, but it refines the risk profile when combined with other factors like balance or products_number.
 
+Model Architecture: Random Forest Classifier
+
+Mechanism: Utilized an ensemble of 100 Decision Trees with Bootstrapped Sampling to ensure model stability.
+
+Optimization: Implemented Balanced Class Weighting to account for the 4:1 imbalance between retained and churned customers, prioritizing Recall to identify at-risk users.
+
+Interpretability: Leveraged Mean Decrease in Impurity (MDI) to extract feature importance, revealing that customer engagement (Activity) and product density (Product Count) outweighed individual income levels as predictive signals.
+
 
 <img src="images/Random_Forest_Feature_Branching.png" width="800">
+
+Feature selection for Random Forest Branching
+
+
 
 
