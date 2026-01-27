@@ -21,7 +21,7 @@ Audit the "4th Product": Investigate if a specific 4th product (e.g., a specific
 
 <img src="images/Churn_by_Product_Count.png" width="800">
 
-"Analysis reveals that while 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition."
+While 2 products represent the 'Loyalty Sweet Spot' (7.6% churn), account consolidation into 3 or 4 products serves as a 90%+ reliable leading indicator of imminent attrition.
 
 Direct correlation to Churn is seen below.
 
@@ -42,7 +42,7 @@ active_member      -0.156128
 ```
 This suggests that the bank should put focus on retaining older customers, customers in Germany, and proactively engaging members with low activity.
 
-1. The "Power" Drivers (High Correlation & Importance)
+1. The Power Drivers (High Correlation & Importance)
 Age (+0.28): The strongest linear predictor. Risk increases significantly as customers age, suggesting a need for "Legacy" or "Wealth Management" retention products for older demographics.
 
 Active Membership (-0.16): The strongest defensive metric. Active engagement is the best "vaccine" against churn.
@@ -61,12 +61,9 @@ Mechanism: Utilized an ensemble of 100 Decision Trees with Bootstrapped Sampling
 
 Optimization: Implemented Balanced Class Weighting to account for the 4:1 imbalance between retained and churned customers, prioritizing Recall to identify at-risk users.
 
-Interpretability: Leveraged Mean Decrease in Impurity (MDI) to extract feature importance, revealing that customer engagement (Activity) and product density (Product Count) outweighed individual income levels as predictive signals.
-
-
 <img src="images/Random_Forest_Feature_Branching.png" width="800">
 
-Feature selection for Random Forest Branching
+Leveraged Mean Decrease in Impurity (MDI) to extract feature importance, revealing that customer engagement (Activity) and product density (Product Count) outweighed individual income levels as predictive signals.
 
 
 
