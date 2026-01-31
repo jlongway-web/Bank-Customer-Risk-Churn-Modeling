@@ -1,9 +1,9 @@
 📉 Bank Customer Risk & Churn Modeling
 An analysis of banking customer churn
 
-This project uses the Bank Customer Churn Dataset download from Kaggle at presented by Gaurav Topre at: https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data
+This project uses the Bank Customer Churn Dataset download from Kaggle at: https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data
 
-Special thanks to Gaurav Topre
+Special thanks to Gaurav Topre for providing the dataset
 
 Strategic Analysis: The "Saturation Ceiling"
 The most significant finding of this study is the identification of a 100% Attrition Rate among customers holding four or more products. While traditional banking KPIs often prioritize "product per household" as a measure of stickiness, this data suggests a dangerous Saturation Ceiling.
