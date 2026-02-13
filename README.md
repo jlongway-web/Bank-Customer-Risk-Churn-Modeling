@@ -1,4 +1,5 @@
-📉 Bank Customer Risk & Churn Modeling
+📉 Bank Customer Risk & Churn Modeling:
+
 An analysis of banking customer churn
 
 This project uses the Bank Customer Churn Dataset download from Kaggle at: https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset/data
