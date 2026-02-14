@@ -6,9 +6,7 @@ This project uses the Bank Customer Churn Dataset download from Kaggle at: https
 
 Special thanks to Gaurav Topre for providing the dataset
 
-Strategic Analysis: The "Saturation Ceiling"
-
-The most significant finding of this study is the identification of a 100% Attrition Rate among customers holding four or more products. While traditional banking KPIs often prioritize "product per household" as a measure of stickiness, this data suggests a dangerous Saturation Ceiling.
+The most significant finding of this study is the identification of a 100% attrition rate among customers holding four or more products. While traditional banking Key Performance Indicators (KPIs) often prioritize "product per household", this data suggests a dangerous saturation Ceiling.
 
 Key Insights:
 The Loyalty Sweet Spot (2 Products): Customers with exactly two products represent the bank's most stable segment, with a churn rate of only 7.6%. This suggests a balanced relationship where the customer is integrated but not over-leveraged.
